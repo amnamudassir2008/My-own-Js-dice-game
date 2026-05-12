@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> -->
+
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+</head>
+<div>
+
+    <div class="container animate__animated  animate__rotateIn" >
+        <h1>Dice Game </h1>
+      
+        <div class="subtitle">
+            Responsive HTML,CSS JAVASCRIPT Dice Game
+        </div>
+        <!-- Player -->
+        <div class="Players">
+            <div class="player-box">
+                <h2>You</h2>
+                <div class="dice" id="player-dice">
+                   🎲
+                </div>
+                <div class="score">
+                    <span id="player-score">0</span>
+                </div>
+            </div>
+     
+            <!-- computer -->
+             <div class="player-box">
+                <h2>Computer</h2>
+                <div class="dice" id="computer-dice">
+                    🎲
+                </div>
+                <div class="score">
+                    <span class="computerscore">0</span>
+                </div>
+             </div>
+        </div>
+<!-- button -->
+ <button onclick="rollDice()">
+    Roll Dice
+ </button>
+
+ <!-- Result -->
+  <div id="result">
+    start the game 😍
+  </div>
+<!-- Footer -->
+ 
+    </div>
+</div>
+<footer>
+    <h2>
+    MADE BY AMNA MUDASSIR
+    </h2>
+</footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
